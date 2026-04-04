@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL = "claude-haiku-3-5-20251001"
+MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 1024
 
 _api_key = os.getenv("ANTHROPIC_API_KEY")
